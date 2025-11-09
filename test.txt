@@ -1,0 +1,8 @@
+hello from docker
+
+Start server in container:
+
+docker start -ai naughty_curran
+
+then get -> root@67ef5f5cde33:/app#
+root@67ef5f5cde33:/app# bin/rails s -b 0.0.0.0
