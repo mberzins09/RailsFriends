@@ -18,6 +18,8 @@ gem "thruster", require: false
 gem "image_processing", "~> 1.2"
 gem 'devise', '~> 4.9', '>= 4.9.4'
 
+
+
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "bundler-audit", require: false
@@ -33,3 +35,4 @@ end
 group :production do 
   gem 'pg', '~> 1.6', '>= 1.6.2'
 end
+
