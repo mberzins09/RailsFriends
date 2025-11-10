@@ -17,6 +17,7 @@ gem "kamal", require: false
 gem "thruster", require: false
 gem "image_processing", "~> 1.2"
 gem 'devise', '~> 4.9', '>= 4.9.4'
+gem "sqlite3", ">= 2.1"
 
 
 
@@ -29,10 +30,4 @@ end
 
 group :development do
   gem "web-console"
-  gem "sqlite3", ">= 2.1"
 end
-
-group :production do 
-  gem 'pg'
-end
-
