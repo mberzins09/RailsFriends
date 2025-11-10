@@ -1,5 +1,7 @@
 # Friends list app
 
+https://mbfriends-61ed2555058d.herokuapp.com/
+
 Ruby on Rails
 
 This README would normally document whatever steps are necessary to get the
